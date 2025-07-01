@@ -25,7 +25,7 @@ onload = () => {
 
 function showPic(){
 
-  var srcimg = "images/20250622_123442-COLLAGE.jpg";
+  var srcimg = "images/20250701_025138-COLLAGE.jpg";
   const pic = document.getElementById("bigpic");
   if(pic.style.display ==="none"){
     pic.style.display = "block";
