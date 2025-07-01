@@ -22,3 +22,28 @@ onload = () => {
     clearTimeout(c);
   }, 1000);
 };
+
+function showPic(){
+
+  var srcimg = "images/20250622_123442-COLLAGE.jpg";
+  const pic = document.getElementById("bigpic");
+  if(pic.style.display ==="none"){
+    pic.style.display = "block";
+    pic.style.opacity = "1";
+    pic.style.transition = "opacity 1s ease-in-out";
+  }
+  else{
+    pic.style.display = "none"
+  }
+  
+  
+  // const audio = document.getElementById("audio");
+  // audio.play();
+  
+  // setTimeout(() => {
+  //   pic.style.opacity = "0";
+  //   setTimeout(() => {
+  //     pic.style.display = "none";
+  //   }, 1000);
+  // }, 3000);
+}
